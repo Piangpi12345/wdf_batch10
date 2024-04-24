@@ -1,0 +1,153 @@
+.circle1,.circle2,.circle3,.circle4,.circle5,.circle6{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.circle1{
+    background: conic-gradient(yellow,red,green,pink);
+}
+.circle2{
+    background:conic-gradient(#4287f5,
+    #a83268,
+    #5bd918
+    );
+}
+.circle3{
+    background: conic-gradient(
+        rgba(24, 235, 187, 0.8),
+        rgba(218, 228, 1, 0.8),
+        rgba(228, 68, 1, 0.8)
+    );
+}
+
+.circle4{
+    background: conic-gradient(
+        hsl(240, 100%, 50%),
+        hsl(100, 100%, 40%),
+        hsl(0, 40%, 80%),
+        hsl(128, 94%, 47%)
+    );
+}
+
+.circle5{
+    background: conic-gradient(
+        red 40%,
+        yellow 0% 50%,
+        blue 0% 80%,
+        green 0% 100%
+    );
+}
+
+.circle6{
+    background: linear-gradient(
+        45deg,
+        red 20% ,
+        yellow 0% 30%,
+        blue 0% 50%,
+        green 0% 100%
+    );
+}
+/* 18dg */
+
+.boxone{
+    width: 600px;
+    height: 300px;
+    background: green;
+
+    display: flex;
+    /* hz center */
+    justify-content: center;
+    /* vt center */
+    align-items: center;
+
+    /* display: grid;
+    place-items: center; */
+
+    position:relative;
+}
+
+.boxone .div1{
+    width: 300px;
+    height: 300px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+
+    position:absolute;
+    /* left:0;
+    top:-0; */
+
+    z-index:2;
+}
+
+.boxone .div2{
+    width: 320px;
+    height: 320px;
+    /* background-color: steelblue; */
+    /* background: linear-gradient(red,orange); */
+    background: conic-gradient(
+        red 0%,
+        rgb(250, 7, 209) 30%,
+        red 0%,
+        blue 70%,
+        red 0%,
+        yellow 100% 
+    );
+
+
+    color: #fff;
+    border-radius: 50%;
+
+
+    position: absolute;
+    /* left: 0;
+    top: 0; */
+
+    z-index: 1;
+}
+
+.pointercontainer{
+    width: 20px;
+    height: 200px;
+    /* background-color: gray; */
+
+    position: absolute;
+    top: -50px;
+
+    z-index: 3;
+
+    animation-name: myani;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    transform-origin: bottom;
+ 
+}
+
+.pointer{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+
+    display: block;
+}
+
+@keyframes myani{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+    /* 0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    } */
+}

@@ -1,0 +1,41 @@
+/* Single Selector */
+h2{
+    color: pink;
+}
+
+/* Group Selector
+ */
+h3, h4, h5{
+    color: aqua;
+}
+
+/* ID Selector */
+#myself{
+    color: violet;
+}
+#thd,#ygn,i{
+    color: blue;
+}
+
+/* Class Slector */
+
+.phone1{
+    color: blueviolet;
+}
+
+.phone2{
+    color: green;
+}
+
+.phone3{
+    color: red;
+}
+
+.phone{
+    background-color: aqua;
+}
+.fontlg,u{
+    font-size: 30px;
+}
+
+

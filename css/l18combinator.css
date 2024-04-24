@@ -1,0 +1,163 @@
+/* Tag to Tag */
+/* div span{
+    color: red;
+} */
+
+/* Multi Tag to Tag */
+/* div span p{
+    background-color: aqua;
+} */
+
+/* Tag to Class */
+/* div .address{
+    color: red;
+} */
+
+/* Multi Tag to Class */
+/* div span .address{
+    color: red;
+} */
+
+/* Multi Tags to Same Class */
+/* div span small.name{
+    color: red;
+} */
+
+/* Class to Class */
+/* .bank .money{
+    color: red;
+} */
+/* .money .currency{
+    color: red;
+} */
+/* .bank .currency{
+    color: red;
+} */
+
+
+/* Multi Class to Class */
+/* .bank .money .currency{
+    color: red;
+} */
+
+/* Class to Container */
+/* .container b{
+    color: red;
+} */
+
+/* Class to Multi tags */
+/* .container b span{
+    color: red;
+} */
+
+/* Same Class */
+/* .mobile.jpn{
+    color: red;
+}
+.mobile.cn{
+    color: blue;
+}
+.indo{
+    color: green;
+}
+.us.mobile{
+    color: yellow;
+} */
+
+/* Class to Same Class */
+/* .vehicle .car.jpn{
+    color: red;
+}
+.vehicle .car.us{
+    color: blue;
+} */
+
+
+/* Class to Tag by Group Selector */
+/* .div1 p,.div1 b{
+    color: red;
+} */
+
+
+/* Child Selector (>) */
+
+/* .div2 > p{
+    color: red;
+} */
+
+/* .div3 > i{
+    color: red;
+} */
+
+/* .div3 > b{
+    color: red;
+} */
+
+/* .div2 > b{
+    color: red;   
+} */
+
+/* .div2 > .div3{
+    color: red;
+} */
+
+/* Sibling Selectors (2 types) */
+/* (1) General Sibling Selector ( ~ )*/
+/* .div4 ~ p{
+    color:red;
+} */
+
+
+/*(2) Adjacent Sibling Selector ( + ) */
+/* .div7 + b{
+    color: red;
+} */
+
+/* b{
+
+}
+
+.hay{
+
+}
+
+#hi{
+
+}
+
+.hoho,#hihi,h1{
+
+}
+
+h1 p{
+
+}
+
+div h1 p{
+
+}
+
+.hi .hay{
+
+}
+
+.hi .hay .ho{
+
+}
+
+div span.hay{
+
+}
+
+div > p{
+
+}
+
+div ~ b{
+
+}
+
+div + i{
+
+} */
+

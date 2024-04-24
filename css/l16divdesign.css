@@ -1,0 +1,75 @@
+.firstdiv{
+    width: 200px;
+    height: 200px;
+
+
+    background-color: green;
+
+    color: #fff;
+    font-size: 20px;
+}
+
+.seconddiv{
+    width: 600px;
+    height: 300px;
+    /* background-image: url(./../img/cover/pray\ shadow1.jpg); */
+    background: url(./../img/cover/pray\ shadow1.jpg);
+    /* background-repeat: repeat; */
+    
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    background-repeat: repeat-y;
+
+
+
+    background-position: center;
+
+    color: red;
+     border: 1px solid green;
+}
+
+.thirddiv{
+    width: 300px;
+    height: 300px;
+
+    /* can solid */
+    /* background-color: green; */
+    
+/* can solid  ,  gradient     ,  image */
+    /* background: linear-gradient(red,orange,pink); */
+    /* background:linear-gradient(#165dba,#8c808c); */
+    /* background: linear-gradient(rgba(245,40,145,0.8),rgba(245,160,36,0.8)); */
+       /* background: linear-gradient(#165dba,green);    */
+
+ 
+    /* can image , gradient  */
+    background-image: linear-gradient(
+        -45deg,
+        red,
+        green,
+        blue
+        );
+
+    border: 2px solid red;
+}
+
+.fourthdiv{
+    width: 600px;
+    height: 300px;
+    
+    /* background-image: linear-gradient(rgb(102, 196, 185),red); */
+    /* background-image: url(./../img/cover/shadow\ photo\ 6.jpg), linear-gradient(rgb(102, 196, 185),red); */
+
+    background-image:  linear-gradient(
+        45deg,
+        rgba(11, 238, 211, 0.4),
+        rgba(192, 35, 35, 0.4)
+    
+    
+    ), url(./../img/cover/shadow\ photo\ 6.jpg);
+
+
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid red;
+}
